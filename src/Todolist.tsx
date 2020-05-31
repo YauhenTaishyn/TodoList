@@ -30,6 +30,7 @@ export function Todolist(props: PropsType) {
     }
     const onCompletedClickHandler = () => {
         props.changeFilter('completed', props.id)
+        console.log('sdsa')
     }
     const removeTodolist = () => {
         props.removeTodolist(props.id)
